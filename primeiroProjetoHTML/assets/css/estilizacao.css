@@ -1,0 +1,96 @@
+@import url('http://fonts.cdnfonts.com/css/montserrat');
+header{
+    background-image: url(../img/background.jpg);    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items:center; 
+    text-align:center;
+    padding: 30px;
+    font-size: 25px;
+    color: antiquewhite;
+    font-family: Cambria;
+} 
+body {
+    background-color: #D6DEE2;
+}
+.card{
+    margin: 50px;
+    box-shadow: 0px 1px 10px 5px rgba(0,0,0,0.46); /* sombra em volta do currículo */
+}
+.botao-div{
+    text-align: right;
+    margin: 20px 50px 20px 50px;
+}
+.bar-color{
+    width: 100%;
+    background-color: #a3cacc;
+    margin-top: 35px;
+    margin-bottom: 90px;
+    height: 50px;
+}
+.card-body{
+    padding: 0px;
+}
+.titulo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold; /* letra em negrito */
+}
+.subtitulo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: light;
+    margin: 20px 0px 70px 0px;
+}
+.bar-subtitulo{
+    background-color: #a3cacc;
+    height: 5px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 30px;
+}
+.espacamento{
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.sub-subtitulo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold; /* letra em negrito */
+}
+.barra-colorida{
+    width: 50px;
+    background-color: #a3cacc;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 7px;
+}
+.tamanho-letra{
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.subtitulo-extra{
+    font-weight: bold; /* letra em negrito */
+    font-size: 15px;
+}
+.paragrafo-extra{
+    font-weight: 500; /* letra fina */
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+ul{
+    list-style: none; /* tirar ° do início */
+    margin-bottom: 60px;
+}
+.li-novo{
+    font-size: 13px;
+    margin-left: -30px;
+
+}
+
+.li-novo:before{
+    content: '-';
+}
+.btn-curriculo{
+    background-color: #a3cacc;
+}
