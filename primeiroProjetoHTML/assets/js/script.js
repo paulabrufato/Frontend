@@ -1,0 +1,1 @@
+let nome = window.document.getElementsByClassName('new_body')
